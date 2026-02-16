@@ -84,10 +84,10 @@ Due to significant hardware limitations (local CPU + intermittent Colab free T4 
 - Inference speed: slow on CPU (~1–3 s/word)
 
 **After CTranslate2**:
-- Model size: ~300–500 MB (int8 quantized)
+- Model size: ~303 MB (int8 quantized)
 - Speed gain: ~3–8× faster inference
 - Quality loss: minimal (CER drop <0.05 in tests)
 
 Conversion command:
 ```bash
-ct2-transformers-converter --model ./merged_model --output_dir ./ctranslate2_model --quantization int8 --force
+ct2-transformers-converter --model ./merged_model --output_dir ./ctranslate2_model --quantization int8 --forc
