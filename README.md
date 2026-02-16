@@ -66,7 +66,7 @@ Due to significant hardware limitations (local CPU + intermittent Colab free T4 
 - Limited compute → used small subsets + LoRA
 
 **Evaluation metrics (zero-shot baseline on mT5-small)**:
-- CER: ~5.06
+- CER: ~2.06
 - Exact match: 0.0%
 
 **After partial fine-tuning** (results varied across runs due to instability):
