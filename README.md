@@ -56,7 +56,7 @@ Due to significant hardware limitations (local CPU + intermittent Colab free T4 
 - Warmup steps: 500–1000
 - Gradient clipping: 0.5 norm
 - fp16: False (stability)
-- predict_with_generate: False (speed + avoid hanging)
+- predict_with_generate: True
 - Evaluation: manual after training (CER only)
 
 **Challenges faced & solutions**:
