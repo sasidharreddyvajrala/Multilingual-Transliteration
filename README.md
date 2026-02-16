@@ -88,9 +88,11 @@ Due to significant hardware limitations (local CPU + intermittent Colab free T4 
 - Speed gain: ~3–8× faster inference
 - Quality loss: minimal (CER drop <0.05 in tests)
 
+**Hugging Face model weight**:
+-huggingface.co/SasidharVajrala/mt5-small-ctranslate2
+
 Conversion command:
 ```bash
 ct2-transformers-converter --model ./merged_model --output_dir ./ctranslate2_model --quantization int8 --forc
 
-**Hugging Face model weight**:
--huggingface.co/SasidharVajrala/mt5-small-ctranslate2
+
