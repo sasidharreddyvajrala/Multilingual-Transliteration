@@ -91,3 +91,4 @@ Due to significant hardware limitations (local CPU + intermittent Colab free T4 
 Conversion command:
 ```bash
 ct2-transformers-converter --model ./merged_model --output_dir ./ctranslate2_model --quantization int8 --forc
+- Hugging Face Weights <a>https://huggingface.co/SasidharVajrala/mt5-small-ctranslate2</a>
